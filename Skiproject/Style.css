@@ -1,32 +1,44 @@
 .container {
      display: flex; 
      margin-left: 50px;
-    background-image: url(fon.png) ;
+     
+    background-image: url(images/fon.png) ;
+    height: 1080px;
+    width: 1920px;
 }
 
 .shapohka2 {
     list-style: none;
-    width: 100%;
+    display: flex;
+    position: absolute;
+    top: -20px; left: 200px;
+   
+
 }
 
 .shapohka2 li {
+   
     display: inline-block;
-    margin: 25px;
-    text-align: center;
+    margin: 50px;
+    
 }
 .right {
     text-align: right;
+   margin-left: 300px;
+    
+    margin-top: 54px;
 }
 
 .logo {
-    margin-top: 40px;
-    margin-left: 30px;
+    height: 100px;
+    margin-top: 32px;
+    margin-left: 20px;
+   
 }
 
 .silka {
     text-decoration: none;
 
-    
 }
 
 .silka a {
@@ -43,4 +55,14 @@
 @font-face {
     font-family:"Rubik Mono One" ;
     src: url(fonts/RubikMonoOne-Regular.ttf);
+}
+.text {
+    text-align: left;
+    font-family: "Rubik Mono One";
+    margin-top: 350px;
+    margin-left: 50px;
+    display: inline;
+    height: 200px;
+    color: white;
+    
 }
