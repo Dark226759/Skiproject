@@ -1,0 +1,46 @@
+.container {
+     display: flex; 
+     margin-left: 50px;
+    background-image: url(fon.png) ;
+}
+
+.shapohka2 {
+    list-style: none;
+    width: 100%;
+}
+
+.shapohka2 li {
+    display: inline-block;
+    margin: 25px;
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.silka {
+    text-decoration: none;
+
+    
+}
+
+.silka a {
+    color: white;
+    transition: ease;
+    font-family: "Rubik Mono One";
+    
+}
+
+.silka a:hover {
+   color: aqua ;
+   transition:0.9s ease;
+}
+@font-face {
+    font-family:"Rubik Mono One" ;
+    src: url(fonts/RubikMonoOne-Regular.ttf);
+}
