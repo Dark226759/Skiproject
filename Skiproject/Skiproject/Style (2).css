@@ -1,0 +1,134 @@
+.container {
+     display: flex; 
+     margin-left: 50px;
+     
+    background-image: url(images/fon.png) ;
+    height: 1300px;
+    width: 24575x;
+}
+
+.shapohka2 {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: -20px; left: 500px;
+
+}
+
+.shapohka2 li {
+   
+    display: inline-block;
+    margin: 50px;
+    
+}
+.right {
+    text-align: right;
+   margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 280px;
+       width: 700px;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 300px;
+   
+}
+
+.silka {
+    text-decoration: none;
+
+}
+
+.silka a {
+    color: white;
+    transition: ease;
+    font-family: "Rubik Mono One";
+    
+}
+
+.silka a:hover {
+   color: aqua ;
+   transition:0.9s ease;
+}
+@font-face {
+    font-family:"Rubik Mono One" ;
+    src: url(fonts/RubikMonoOne-Regular.ttf);
+}
+.text {
+    text-align: left;
+    font-family:"Rubik Mono One" ;
+    margin-top: 450px;
+    margin-left: 30px;
+    display: inline;
+    height: 200px;
+    color: white;
+    
+}
+.text h1, h2, h3 {
+    margin-bottom: 37px;
+}
+@font-face {
+    font-family:"RussoOne" ;
+    src: url(fonts/RussoOne-Regular.ttf);
+}
+.text h1 {
+    font-family: "RussoOne";
+    font-size: 50px;
+}
+.text h2 {
+font-family: "Rubik";
+font-size: 40px;
+}
+
+.text h3 {
+    font-family:"Rubik";
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "Rubik" ;
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"Rubik Ital" ;
+    src: url(fonts/Rubik-Italic-VariableFont_wght.ttf);
+}
+
+.styled {
+    font-family:"Rubik Mono One" ;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgb(0, 110, 255);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+.container2 {
+    background-image: url(images/fon2.png);
+}
+
+
